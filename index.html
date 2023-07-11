@@ -125,7 +125,7 @@
                   <div class="form__body">
                      <div class="form__fullname">
                         <label for="name">Ваш ПІБ:</label>
-                        <input id="name" type="text" required>
+                        <input id="name" type="text" pattern="^[^\s]+(\s.*)?$" required>
                      </div>
                      <div class="form__city">
                         <label for="city">Ваше місто:</label>
@@ -139,7 +139,7 @@
                      </div>
                      <div class="form__post">
                         <label for="post">Склад нової пошти:</label>
-                        <input type="text" id="post" required>
+                        <input type="text" id="post" pattern="^[^\s]+(\s.*)?$" required>
                      </div>
                      <div class="form__pay">
                         <label for="paymethod">Спосіб оплати:</label>
